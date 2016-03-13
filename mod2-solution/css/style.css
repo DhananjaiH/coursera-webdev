@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: #263238;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ECEFF1;
+}
+h1 {
+  font-size: 32px;
+  text-align: center;
+  margin: 25px auto;
+}
+p {
+  font-size: 16px;
+  padding-top: 20px;
+}
+.row {
+  width: 100%;
+}
+.section-title {
+  color: #ECEFF1;
+  font-weight: 600;
+  font-size: 20px;
+  border: 1px solid #263238;
+  border-radius: 2px;
+  background-color: #B0BEC5;
+  padding: 5px 10px;
+  position: absolute;
+  top: -1px;
+  right: -1px;
+}
+#nutella {
+  background-color: #795548;
+}
+#pbutter {
+  background-color: #F9A825;
+}
+#jam {
+  background-color: #B71C1C;
+}
+
+.section {
+  border: 1px solid #263238;
+  border-radius: 2px;
+  background-color: #B0BEC5;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+  margin: 0px 10px 20px 10px;
+}
+
+/* -- Desktop - min-width: 992px -- */
+@media (min-width: 992px) {
+  .col-lg-4 {
+    width: 33.33%;
+    float: left;
+  }
+}
+
+/* -- Tablet - min-width: 768px - max-width: 991px -- */
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-med-6 {
+    width: 50%;
+    float: left;
+  }
+  .col-med-12 {
+    width: 100%;
+    clear: left;
+  }
+}
+
+/* -- Phone - max-width: 767px -- */
+@media (max-width: 767px) {
+  .col-sm-12 {
+    width: 100%;
+  }
+}
