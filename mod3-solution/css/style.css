@@ -1,0 +1,55 @@
+* {
+  font-family: 'Droid Sans', sans-serif;
+  box-sizing: border-box;
+}
+#header-bar {
+  background-color: #009688;
+  border-bottom: 1px solid #00202a;
+}
+body {
+  background-color: #B2DFDB;
+}
+hr {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-color: #00202a;
+}
+#page-title {
+  font-size: 28px;
+  text-transform: uppercase;
+  color: #00202a;
+}
+#menu-list {
+  background-color: #009688;
+  border: 1px solid #00202a;
+}
+#menu-list a {
+  color: #00202a;
+}
+#menu-list a:hover {
+  background-color: #B2DFDB;
+}
+#menu-collapse {
+  margin-top: -30px;
+}
+#page-heading {
+  margin-bottom: 20px;
+  font-size: 26px;
+  color: #00202a;
+}
+.item-description {
+  background-color: #009688;
+  border: 1px solid #00202a;
+  border-radius: 10px;
+  padding: 10px 10px 10px 10px;
+  margin-bottom: 25px;
+  font-size: 16px;
+  color: #00202a;
+}
+.item-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #00202a;
+}
